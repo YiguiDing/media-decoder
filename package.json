@@ -1,9 +1,16 @@
 {
   "name": "media-decoder",
   "version": "0.0.0-alpha.0",
+  "scripts": {
+    "pkg-fix": "npm pkg fix",
+    "publish": "npm publish"
+  },
   "description": "A media decoder based on FFmpeg and a Node.js addon for rendering, recording, and capturing media formats such as RTSP.",
   "main": "src/index.js",
-  "repository": "https://github.com/YiguiDing/media-decoder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YiguiDing/media-decoder.git"
+  },
   "author": "YiguiDing <2449695354@qq.com>",
   "license": "GPL3.0"
 }
