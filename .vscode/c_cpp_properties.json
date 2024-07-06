@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/ffmpeg/**",
+                "${workspaceFolder}/node_modules/node-addon-api/**",
+                "${userHome}/AppData/Local/node-gyp/Cache/20.10.0/include/node/",
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "NODE_API_NO_EXTERNAL_BUFFERS_ALLOWED",
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
